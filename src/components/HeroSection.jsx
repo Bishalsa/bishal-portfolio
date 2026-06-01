@@ -47,7 +47,7 @@ const HeroSection = () => {
               }`}
             >
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
-                Full-Stack Web Developer & AI Automation Specialist
+                Building Modern Websites, Stores & AI-Powered Systems
               </h1>
             </div>
 
@@ -80,7 +80,7 @@ const HeroSection = () => {
                 isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              <button className="group relative px-8 py-3.5 bg-black text-white rounded-lg font-semibold text-base overflow-hidden transition-all duration-300 hover:shadow-lg">
+              <button onClick={() => document.getElementById('work').scrollIntoView({ behavior: 'smooth' })} className="group relative px-8 py-3.5 bg-black text-white rounded-lg font-semibold text-base overflow-hidden transition-all duration-300 hover:shadow-lg">
                 <span className="relative z-10 flex items-center justify-center space-x-2">
                   <span>View Projects</span>
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
