@@ -67,12 +67,16 @@ const ContactSection = () => {
         </div>
 
         {/* Location */}
-        <div>
+        <div className="mb-10">
           <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-4">
             Location
           </p>
+          <p className="text-lg text-gray-300 mb-6 max-w-md mx-auto leading-relaxed">
+            1/9A, Katju Nagar, Jadavpur,<br />
+            Kolkata, West Bengal 700068
+          </p>
           <a
-            href="https://maps.app.goo.gl/AoMM3iWCVrEtk8g68"
+            href="https://www.google.com/maps/search/?api=1&query=G927%2BGQ8%2C+1%2F9A%2C+Katju+Nagar%2C+Jadavpur%2C+Kolkata%2C+West+Bengal+700068"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition"
